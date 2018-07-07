@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Status_changer.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="conString" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Data Source=RUMOWS12;Initial Catalog=InvoicesStatuses;MultipleActiveResultSets=true;user=mf;password=mf;</Value>
+    </Setting>
+    <Setting Name="isVisible" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="EventDepot" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Data Source=RUMOWS12;Initial Catalog=InvoicesStatuses;MultipleActiveResultSets=true;user=mf;password=mf;</Value>
+    </Setting>
+    <Setting Name="loginMF" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C346RSR</Value>
+    </Setting>
+    <Setting Name="pwdMF" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Mainf618</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
