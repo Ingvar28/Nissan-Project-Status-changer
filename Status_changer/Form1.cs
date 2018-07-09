@@ -270,7 +270,7 @@ namespace Status_changer
                                                 
                         ForAwaitCol(70);//Вводим депо
                         Thread.Sleep(3000);
-                        host.Send("MOW");
+                        host.Send(eventdepot);
                         Thread.Sleep(3000);
                         host.Send("<TAB>");
                         Thread.Sleep(100);
