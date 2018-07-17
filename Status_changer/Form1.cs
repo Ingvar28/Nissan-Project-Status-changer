@@ -141,7 +141,7 @@ namespace Status_changer
                     
 
                     // DataS эскпорт                          
-                    Excel.Range exceldateS = ObjWorkSheet.get_Range("R" + colnum);             
+                    Excel.Range exceldateS = ObjWorkSheet.get_Range("S" + colnum);             
                     object dateS_v = exceldateS.Value2;
 
                     if (dateS_v == null || dateS_v is string)
@@ -173,15 +173,15 @@ namespace Status_changer
                         logger.Debug(colnum, this.Text); //LOG
 
                         // Status
-                        var excelstatus = ObjWorkSheet.get_Range("Q" + colnum, Type.Missing).Value2;
+                        var excelstatus = ObjWorkSheet.get_Range("R" + colnum, Type.Missing).Value2;
                         string status = excelstatus.ToString();                                  
                     
                         // Экспорт даты доставки dateD                
-                        Excel.Range exceldateD = ObjWorkSheet.get_Range("P" + colnum);
+                        Excel.Range exceldateD = ObjWorkSheet.get_Range("Q" + colnum);
                         object dateD_v = exceldateD.Value2;
                                            
                         // Экспорт даты забора dateZ                
-                        Excel.Range exceldateZ = ObjWorkSheet.get_Range("O" + colnum);
+                        Excel.Range exceldateZ = ObjWorkSheet.get_Range("P" + colnum);
                         object dateZ_v = exceldateZ.Value2;
                     
                         //Time - Можно по умолчанию вводить "1000"
@@ -191,7 +191,7 @@ namespace Status_changer
                         var eventdepot = "MOW";
 
                         // Consigment номер накладной
-                        var excelcon = ObjWorkSheet.get_Range("M" + colnum, Type.Missing).Value2;
+                        var excelcon = ObjWorkSheet.get_Range("N" + colnum, Type.Missing).Value2;
                         string con_wocheck = excelcon.ToString();
                         string con = con_wocheck.Substring(0, 9);// ограничивание накладной по количеству знаков
 
