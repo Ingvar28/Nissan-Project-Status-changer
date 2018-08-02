@@ -75,7 +75,7 @@ namespace Status_changer.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Mainf618")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Mainf818")]
         public string pwdMF {
             get {
                 return ((string)(this["pwdMF"]));

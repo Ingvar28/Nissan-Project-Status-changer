@@ -219,7 +219,7 @@ namespace Status_changer
                             }
 
                             DateTime dDt = DateTime.FromOADate((double)dateD_v);
-
+                            
                             string dateD = dDt.ToString("ddMMMyy", CultureInfo.GetCultureInfo("en-us"));
 
                             if (dateD_v is double)
