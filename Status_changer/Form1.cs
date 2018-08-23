@@ -133,7 +133,7 @@ namespace Status_changer
 
 
                 // foreach (DataRow row in consData.Rows) // Старое
-                for (int i = 2; i < lastUsedRow; i++)            
+                for (int i = 2; i <= lastUsedRow; i++)            
                 {               
                     // Colnum
                     string colnum = Convert.ToString(i);
