@@ -359,8 +359,11 @@ namespace Status_changer
                                 {
                                     short col = (Int16)(9 + j);
                                     checkDepo = disp.ScreenData[54, col, 3];
-                                    if (checkDepo == "MW3" || checkDepo == "MW5" || checkDepo == "MW7" || checkDepo == "MOW"
-
+                                    if (checkDepo == "MW3"
+                                #region depoes 
+                                        || checkDepo == "MW5" 
+                                        || checkDepo == "MW7" 
+                                        || checkDepo == "MOW"
                                         || checkDepo == "LED"
                                         || checkDepo == "KG7"
                                         || checkDepo == "GOJ"
@@ -445,7 +448,7 @@ namespace Status_changer
                                         || checkDepo == "VY8"
                                         || checkDepo == "XS7"
                                         || checkDepo == "ZP8"
-
+                                #endregion
                                         )
                                     {
                                         host.Send(j.ToString());

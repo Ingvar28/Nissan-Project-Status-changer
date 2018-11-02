@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2008
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nissan Project Status changer", "Status_changer\Nissan Project Status changer.csproj", "{20BF727F-A0B9-4758-8E1C-5108CA825203}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nissan Status changer", "Status_changer\Nissan Status changer.csproj", "{20BF727F-A0B9-4758-8E1C-5108CA825203}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
