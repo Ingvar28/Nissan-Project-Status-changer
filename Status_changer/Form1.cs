@@ -164,7 +164,7 @@ namespace Status_changer
 
 
                     // Done
-                    string done = "DONE";
+                    string done = "_____DONE_____";
 
 
                     //Если статус Введенная дата есть в ячейке, то  цикл продолжается, если нет, то перескакивает к следующему i
@@ -186,6 +186,7 @@ namespace Status_changer
                     
                         //Time - Можно по умолчанию вводить "1000"
                         var time = "1000";
+                        
 
                         //Depo - EVENTDEPOT                     
                         var eventdepot = "MOW";
@@ -265,6 +266,7 @@ namespace Status_changer
 
                         ForAwaitCol(46);//Вводим время
                         host.Send(time);
+                        logger.Debug(time, this.Text); //LOG - временно
                         Thread.Sleep(100);
                         if (disp.CursorCol != 70 && disp.CursorCol != 46) host.Send("<TAB>");
                                                 

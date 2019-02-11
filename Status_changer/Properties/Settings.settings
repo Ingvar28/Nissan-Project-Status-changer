@@ -15,7 +15,7 @@
       <Value Profile="(Default)">C346RSR</Value>
     </Setting>
     <Setting Name="pwdMF" Type="System.String" Scope="User">
-      <Value Profile="(Default)">Main11</Value>
+      <Value Profile="(Default)">Mainf02</Value>
     </Setting>
   </Settings>
 </SettingsFile>
